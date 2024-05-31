@@ -31,3 +31,4 @@ C:\Users\LEONARDO\Downloads\MicroservicesDemo\MicroservicesDemo\OrderService\obj
 C:\Users\LEONARDO\Downloads\MicroservicesDemo\MicroservicesDemo\OrderService\obj\Debug\net8.0\OrderService.pdb
 C:\Users\LEONARDO\Downloads\MicroservicesDemo\MicroservicesDemo\OrderService\obj\Debug\net8.0\OrderService.genruntimeconfig.cache
 C:\Users\LEONARDO\Downloads\MicroservicesDemo\MicroservicesDemo\OrderService\obj\Debug\net8.0\ref\OrderService.dll
+C:\Users\LEONARDO\Downloads\MicroservicesDemo\MicroservicesDemo\OrderService\obj\Debug\net8.0\OrderService.sourcelink.json

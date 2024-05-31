@@ -1,9 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers(); // Agregar servicios de controladores
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient(); // Agregar HttpClient
 
 var app = builder.Build();
 
@@ -16,9 +17,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseRouting(); // Agregar enrutamiento
+app.UseRouting();
 app.UseAuthorization();
 
-app.MapControllers(); // Mapear los controladores
+app.MapControllers();
 
 app.Run();
